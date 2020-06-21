@@ -1,0 +1,34 @@
+# serverless.yml
+service: silar-air-quality
+plugins:
+  - serverless-python-requirements
+  - serverless-wsgi
+
+
+custom:
+  wsgi:
+    app: app.app
+    packRequirements: false
+  pythonRequirements:
+    dockerizePip: true
+
+provider:
+  name: aws
+  runtime: python3.6
+  stage: dev
+  region: eu-west-1 # AWS landsat8 bucket in us-west-2 (oregeon)
+  timeout: 300 # optional, in seconds, default is 6
+  memorySize: 1024 # optional, in MB, default is 1024
+
+
+apiGateway:
+  binaryMediaTypes:
+    - '*/*'
+
+functions:
+  dispatcher:
+    handler: wsgi_handler.handler
+    events:
+      - sns:  arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-silam-surface-netcdf
+      - http: ANY /
+      - http: 'ANY {proxy+}'

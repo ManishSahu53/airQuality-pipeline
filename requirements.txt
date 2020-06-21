@@ -1,0 +1,5 @@
+cogconverter
+boto3
+wget
+joblib
+# gdal

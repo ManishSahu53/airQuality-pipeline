@@ -1,0 +1,215 @@
+2020-06-21 10:52:21,585 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200520/silam_glob_v5_6_20200520_PM25_d0.nc
+2020-06-21 10:52:21,740 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:21,741 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200520/silam_glob_v5_6_20200520_PM25_d1.nc
+2020-06-21 10:52:21,888 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:21,888 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200520/silam_glob_v5_6_20200520_PM25_d2.nc
+2020-06-21 10:52:22,031 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:22,031 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200520/silam_glob_v5_6_20200520_PM25_d3.nc
+2020-06-21 10:52:22,169 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:22,169 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200520/silam_glob_v5_6_20200520_PM25_d4.nc
+2020-06-21 10:52:22,306 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:22,307 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200520/silam_glob_v5_6_20200520_PM10_d0.nc
+2020-06-21 10:52:22,443 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:22,444 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200520/silam_glob_v5_6_20200520_PM10_d1.nc
+2020-06-21 10:52:22,587 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:22,587 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200520/silam_glob_v5_6_20200520_PM10_d2.nc
+2020-06-21 10:52:22,725 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:22,725 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200520/silam_glob_v5_6_20200520_PM10_d3.nc
+2020-06-21 10:52:22,863 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:22,864 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200520/silam_glob_v5_6_20200520_PM10_d4.nc
+2020-06-21 10:52:23,001 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:23,001 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200521/silam_glob_v5_6_20200521_PM25_d0.nc
+2020-06-21 10:52:23,144 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:23,144 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200521/silam_glob_v5_6_20200521_PM25_d1.nc
+2020-06-21 10:52:23,283 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:23,283 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200521/silam_glob_v5_6_20200521_PM25_d2.nc
+2020-06-21 10:52:23,428 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:23,428 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200521/silam_glob_v5_6_20200521_PM25_d3.nc
+2020-06-21 10:52:23,574 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:23,575 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200521/silam_glob_v5_6_20200521_PM25_d4.nc
+2020-06-21 10:52:23,733 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:23,733 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200521/silam_glob_v5_6_20200521_PM10_d0.nc
+2020-06-21 10:52:23,879 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:23,879 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200521/silam_glob_v5_6_20200521_PM10_d1.nc
+2020-06-21 10:52:24,037 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:24,038 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200521/silam_glob_v5_6_20200521_PM10_d2.nc
+2020-06-21 10:52:24,175 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:24,175 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200521/silam_glob_v5_6_20200521_PM10_d3.nc
+2020-06-21 10:52:24,345 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:24,346 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200521/silam_glob_v5_6_20200521_PM10_d4.nc
+2020-06-21 10:52:24,493 : WARNING : Unable to download data. Error: HTTP Error 404: Not Found
+2020-06-21 10:52:24,493 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200522/silam_glob_v5_6_20200522_PM25_d0.nc
+2020-06-21 10:52:26,513 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200522/silam_glob_v5_6_20200522_PM25_d1.nc
+2020-06-21 10:52:28,188 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200522/silam_glob_v5_6_20200522_PM25_d2.nc
+2020-06-21 10:52:29,950 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200522/silam_glob_v5_6_20200522_PM25_d3.nc
+2020-06-21 10:52:31,648 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200522/silam_glob_v5_6_20200522_PM25_d4.nc
+2020-06-21 10:52:33,353 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200522/silam_glob_v5_6_20200522_PM10_d0.nc
+2020-06-21 10:52:35,241 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200522/silam_glob_v5_6_20200522_PM10_d1.nc
+2020-06-21 10:52:41,055 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200522/silam_glob_v5_6_20200522_PM10_d2.nc
+2020-06-21 10:52:42,826 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200522/silam_glob_v5_6_20200522_PM10_d3.nc
+2020-06-21 10:52:44,596 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200522/silam_glob_v5_6_20200522_PM10_d4.nc
+2020-06-21 10:52:46,505 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200523/silam_glob_v5_6_20200523_PM25_d0.nc
+2020-06-21 10:52:48,270 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200523/silam_glob_v5_6_20200523_PM25_d1.nc
+2020-06-21 10:52:51,668 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200523/silam_glob_v5_6_20200523_PM25_d2.nc
+2020-06-21 10:52:54,042 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200523/silam_glob_v5_6_20200523_PM25_d3.nc
+2020-06-21 10:52:55,710 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200523/silam_glob_v5_6_20200523_PM25_d4.nc
+2020-06-21 10:52:57,413 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200523/silam_glob_v5_6_20200523_PM10_d0.nc
+2020-06-21 10:52:59,243 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200523/silam_glob_v5_6_20200523_PM10_d1.nc
+2020-06-21 10:53:01,037 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200523/silam_glob_v5_6_20200523_PM10_d2.nc
+2020-06-21 10:53:02,983 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200523/silam_glob_v5_6_20200523_PM10_d3.nc
+2020-06-21 10:53:04,742 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200523/silam_glob_v5_6_20200523_PM10_d4.nc
+2020-06-21 10:53:11,921 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200524/silam_glob_v5_6_20200524_PM25_d0.nc
+2020-06-21 10:53:13,823 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200524/silam_glob_v5_6_20200524_PM25_d1.nc
+2020-06-21 10:53:15,694 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200524/silam_glob_v5_6_20200524_PM25_d2.nc
+2020-06-21 10:53:17,374 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200524/silam_glob_v5_6_20200524_PM25_d3.nc
+2020-06-21 10:53:19,152 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200524/silam_glob_v5_6_20200524_PM25_d4.nc
+2020-06-21 10:53:20,841 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200524/silam_glob_v5_6_20200524_PM10_d0.nc
+2020-06-21 10:53:22,751 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200524/silam_glob_v5_6_20200524_PM10_d1.nc
+2020-06-21 10:53:24,711 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200524/silam_glob_v5_6_20200524_PM10_d2.nc
+2020-06-21 10:53:26,577 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200524/silam_glob_v5_6_20200524_PM10_d3.nc
+2020-06-21 10:53:29,905 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200524/silam_glob_v5_6_20200524_PM10_d4.nc
+2020-06-21 10:53:31,765 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200525/silam_glob_v5_6_20200525_PM25_d0.nc
+2020-06-21 10:53:39,991 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200525/silam_glob_v5_6_20200525_PM25_d1.nc
+2020-06-21 10:53:41,782 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200525/silam_glob_v5_6_20200525_PM25_d2.nc
+2020-06-21 10:53:43,872 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200525/silam_glob_v5_6_20200525_PM25_d3.nc
+2020-06-21 10:53:46,394 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200525/silam_glob_v5_6_20200525_PM25_d4.nc
+2020-06-21 10:53:48,182 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200525/silam_glob_v5_6_20200525_PM10_d0.nc
+2020-06-21 10:53:50,013 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200525/silam_glob_v5_6_20200525_PM10_d1.nc
+2020-06-21 10:53:51,829 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200525/silam_glob_v5_6_20200525_PM10_d2.nc
+2020-06-21 10:53:53,746 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200525/silam_glob_v5_6_20200525_PM10_d3.nc
+2020-06-21 10:53:55,696 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200525/silam_glob_v5_6_20200525_PM10_d4.nc
+2020-06-21 10:53:58,065 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200526/silam_glob_v5_6_20200526_PM25_d0.nc
+2020-06-21 10:53:59,779 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200526/silam_glob_v5_6_20200526_PM25_d1.nc
+2020-06-21 10:54:07,383 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200526/silam_glob_v5_6_20200526_PM25_d2.nc
+2020-06-21 10:54:09,156 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200526/silam_glob_v5_6_20200526_PM25_d3.nc
+2020-06-21 10:54:10,868 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200526/silam_glob_v5_6_20200526_PM25_d4.nc
+2020-06-21 10:54:12,686 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200526/silam_glob_v5_6_20200526_PM10_d0.nc
+2020-06-21 10:54:14,565 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200526/silam_glob_v5_6_20200526_PM10_d1.nc
+2020-06-21 10:54:16,472 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200526/silam_glob_v5_6_20200526_PM10_d2.nc
+2020-06-21 10:54:18,743 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200526/silam_glob_v5_6_20200526_PM10_d3.nc
+2020-06-21 10:54:20,541 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200526/silam_glob_v5_6_20200526_PM10_d4.nc
+2020-06-21 10:54:22,531 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200527/silam_glob_v5_6_20200527_PM25_d0.nc
+2020-06-21 10:54:24,180 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200527/silam_glob_v5_6_20200527_PM25_d1.nc
+2020-06-21 10:54:25,992 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200527/silam_glob_v5_6_20200527_PM25_d2.nc
+2020-06-21 10:54:27,763 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200527/silam_glob_v5_6_20200527_PM25_d3.nc
+2020-06-21 10:54:29,502 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200527/silam_glob_v5_6_20200527_PM25_d4.nc
+2020-06-21 10:54:31,308 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200527/silam_glob_v5_6_20200527_PM10_d0.nc
+2020-06-21 10:54:33,178 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200527/silam_glob_v5_6_20200527_PM10_d1.nc
+2020-06-21 10:54:34,935 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200527/silam_glob_v5_6_20200527_PM10_d2.nc
+2020-06-21 10:54:36,898 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200527/silam_glob_v5_6_20200527_PM10_d3.nc
+2020-06-21 10:54:38,773 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200527/silam_glob_v5_6_20200527_PM10_d4.nc
+2020-06-21 10:54:40,512 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200528/silam_glob_v5_6_20200528_PM25_d0.nc
+2020-06-21 10:54:42,870 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200528/silam_glob_v5_6_20200528_PM25_d1.nc
+2020-06-21 10:54:47,148 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200528/silam_glob_v5_6_20200528_PM25_d2.nc
+2020-06-21 10:54:48,774 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200528/silam_glob_v5_6_20200528_PM25_d3.nc
+2020-06-21 10:54:50,507 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200528/silam_glob_v5_6_20200528_PM25_d4.nc
+2020-06-21 10:54:52,170 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200528/silam_glob_v5_6_20200528_PM10_d0.nc
+2020-06-21 10:54:54,165 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200528/silam_glob_v5_6_20200528_PM10_d1.nc
+2020-06-21 10:54:56,001 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200528/silam_glob_v5_6_20200528_PM10_d2.nc
+2020-06-21 10:54:57,902 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200528/silam_glob_v5_6_20200528_PM10_d3.nc
+2020-06-21 10:54:59,771 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200528/silam_glob_v5_6_20200528_PM10_d4.nc
+2020-06-21 10:55:01,619 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200529/silam_glob_v5_6_20200529_PM25_d0.nc
+2020-06-21 10:55:03,360 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200529/silam_glob_v5_6_20200529_PM25_d1.nc
+2020-06-21 10:55:05,168 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200529/silam_glob_v5_6_20200529_PM25_d2.nc
+2020-06-21 10:55:06,885 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200529/silam_glob_v5_6_20200529_PM25_d3.nc
+2020-06-21 10:55:08,704 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200529/silam_glob_v5_6_20200529_PM25_d4.nc
+2020-06-21 10:55:10,772 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200529/silam_glob_v5_6_20200529_PM10_d0.nc
+2020-06-21 10:55:12,477 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200529/silam_glob_v5_6_20200529_PM10_d1.nc
+2020-06-21 10:55:14,451 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200529/silam_glob_v5_6_20200529_PM10_d2.nc
+2020-06-21 10:55:16,427 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200529/silam_glob_v5_6_20200529_PM10_d3.nc
+2020-06-21 10:55:18,522 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200529/silam_glob_v5_6_20200529_PM10_d4.nc
+2020-06-21 10:55:20,394 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200530/silam_glob_v5_6_20200530_PM25_d0.nc
+2020-06-21 10:55:22,038 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200530/silam_glob_v5_6_20200530_PM25_d1.nc
+2020-06-21 10:55:23,754 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200530/silam_glob_v5_6_20200530_PM25_d2.nc
+2020-06-21 10:55:25,493 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200530/silam_glob_v5_6_20200530_PM25_d3.nc
+2020-06-21 10:55:33,173 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200530/silam_glob_v5_6_20200530_PM25_d4.nc
+2020-06-21 10:55:34,895 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200530/silam_glob_v5_6_20200530_PM10_d0.nc
+2020-06-21 10:55:36,714 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200530/silam_glob_v5_6_20200530_PM10_d1.nc
+2020-06-21 10:55:38,483 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200530/silam_glob_v5_6_20200530_PM10_d2.nc
+2020-06-21 10:55:40,336 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200530/silam_glob_v5_6_20200530_PM10_d3.nc
+2020-06-21 10:55:42,106 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200530/silam_glob_v5_6_20200530_PM10_d4.nc
+2020-06-21 10:55:43,956 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200531/silam_glob_v5_6_20200531_PM25_d0.nc
+2020-06-21 10:55:54,215 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200531/silam_glob_v5_6_20200531_PM25_d1.nc
+2020-06-21 10:55:56,069 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200531/silam_glob_v5_6_20200531_PM25_d2.nc
+2020-06-21 10:55:57,751 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200531/silam_glob_v5_6_20200531_PM25_d3.nc
+2020-06-21 10:55:59,484 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200531/silam_glob_v5_6_20200531_PM25_d4.nc
+2020-06-21 10:56:01,169 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200531/silam_glob_v5_6_20200531_PM10_d0.nc
+2020-06-21 10:56:03,064 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200531/silam_glob_v5_6_20200531_PM10_d1.nc
+2020-06-21 10:56:04,846 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200531/silam_glob_v5_6_20200531_PM10_d2.nc
+2020-06-21 10:56:06,879 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200531/silam_glob_v5_6_20200531_PM10_d3.nc
+2020-06-21 10:56:08,846 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200531/silam_glob_v5_6_20200531_PM10_d4.nc
+2020-06-21 10:56:10,614 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200601/silam_glob_v5_6_20200601_PM25_d0.nc
+2020-06-21 10:56:22,965 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200601/silam_glob_v5_6_20200601_PM25_d1.nc
+2020-06-21 10:56:24,711 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200601/silam_glob_v5_6_20200601_PM25_d2.nc
+2020-06-21 10:56:26,505 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200601/silam_glob_v5_6_20200601_PM25_d3.nc
+2020-06-21 10:56:28,317 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200601/silam_glob_v5_6_20200601_PM25_d4.nc
+2020-06-21 10:56:30,198 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200601/silam_glob_v5_6_20200601_PM10_d0.nc
+2020-06-21 10:56:32,007 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200601/silam_glob_v5_6_20200601_PM10_d1.nc
+2020-06-21 10:56:33,876 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200601/silam_glob_v5_6_20200601_PM10_d2.nc
+2020-06-21 10:56:35,799 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200601/silam_glob_v5_6_20200601_PM10_d3.nc
+2020-06-21 10:56:37,553 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200601/silam_glob_v5_6_20200601_PM10_d4.nc
+2020-06-21 10:56:39,793 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200602/silam_glob_v5_6_20200602_PM25_d0.nc
+2020-06-21 10:56:41,624 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200602/silam_glob_v5_6_20200602_PM25_d1.nc
+2020-06-21 10:56:47,674 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200602/silam_glob_v5_6_20200602_PM25_d2.nc
+2020-06-21 10:56:49,411 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200602/silam_glob_v5_6_20200602_PM25_d3.nc
+2020-06-21 10:56:51,160 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200602/silam_glob_v5_6_20200602_PM25_d4.nc
+2020-06-21 10:56:52,853 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200602/silam_glob_v5_6_20200602_PM10_d0.nc
+2020-06-21 10:56:58,481 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200602/silam_glob_v5_6_20200602_PM10_d1.nc
+2020-06-21 10:57:00,542 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200602/silam_glob_v5_6_20200602_PM10_d2.nc
+2020-06-21 10:57:02,367 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200602/silam_glob_v5_6_20200602_PM10_d3.nc
+2020-06-21 10:57:04,239 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200602/silam_glob_v5_6_20200602_PM10_d4.nc
+2020-06-21 10:57:06,085 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200603/silam_glob_v5_6_20200603_PM25_d0.nc
+2020-06-21 10:57:07,839 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200603/silam_glob_v5_6_20200603_PM25_d1.nc
+2020-06-21 10:57:09,475 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200603/silam_glob_v5_6_20200603_PM25_d2.nc
+2020-06-21 10:57:11,312 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200603/silam_glob_v5_6_20200603_PM25_d3.nc
+2020-06-21 10:57:13,088 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200603/silam_glob_v5_6_20200603_PM25_d4.nc
+2020-06-21 10:57:14,726 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200603/silam_glob_v5_6_20200603_PM10_d0.nc
+2020-06-21 10:57:16,749 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200603/silam_glob_v5_6_20200603_PM10_d1.nc
+2020-06-21 10:57:18,641 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200603/silam_glob_v5_6_20200603_PM10_d2.nc
+2020-06-21 10:57:20,552 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200603/silam_glob_v5_6_20200603_PM10_d3.nc
+2020-06-21 10:57:22,292 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200603/silam_glob_v5_6_20200603_PM10_d4.nc
+2020-06-21 10:57:24,252 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200604/silam_glob_v5_6_20200604_PM25_d0.nc
+2020-06-21 10:57:26,187 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200604/silam_glob_v5_6_20200604_PM25_d1.nc
+2020-06-21 10:57:27,951 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200604/silam_glob_v5_6_20200604_PM25_d2.nc
+2020-06-21 10:57:29,770 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200604/silam_glob_v5_6_20200604_PM25_d3.nc
+2020-06-21 10:57:31,476 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200604/silam_glob_v5_6_20200604_PM25_d4.nc
+2020-06-21 10:57:33,198 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200604/silam_glob_v5_6_20200604_PM10_d0.nc
+2020-06-21 10:57:35,153 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200604/silam_glob_v5_6_20200604_PM10_d1.nc
+2020-06-21 10:57:37,043 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200604/silam_glob_v5_6_20200604_PM10_d2.nc
+2020-06-21 10:57:38,877 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200604/silam_glob_v5_6_20200604_PM10_d3.nc
+2020-06-21 10:57:41,981 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200604/silam_glob_v5_6_20200604_PM10_d4.nc
+2020-06-21 10:57:43,816 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200605/silam_glob_v5_6_20200605_PM25_d0.nc
+2020-06-21 10:57:45,550 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200605/silam_glob_v5_6_20200605_PM25_d1.nc
+2020-06-21 10:57:47,297 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200605/silam_glob_v5_6_20200605_PM25_d2.nc
+2020-06-21 10:57:48,959 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200605/silam_glob_v5_6_20200605_PM25_d3.nc
+2020-06-21 10:57:50,683 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200605/silam_glob_v5_6_20200605_PM25_d4.nc
+2020-06-21 10:57:52,341 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200605/silam_glob_v5_6_20200605_PM10_d0.nc
+2020-06-21 10:57:54,386 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200605/silam_glob_v5_6_20200605_PM10_d1.nc
+2020-06-21 10:58:01,580 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200605/silam_glob_v5_6_20200605_PM10_d2.nc
+2020-06-21 10:58:04,577 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200605/silam_glob_v5_6_20200605_PM10_d3.nc
+2020-06-21 10:58:06,484 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200605/silam_glob_v5_6_20200605_PM10_d4.nc
+2020-06-21 10:58:08,309 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200606/silam_glob_v5_6_20200606_PM25_d0.nc
+2020-06-21 10:58:10,067 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200606/silam_glob_v5_6_20200606_PM25_d1.nc
+2020-06-21 10:58:11,684 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200606/silam_glob_v5_6_20200606_PM25_d2.nc
+2020-06-21 10:58:13,327 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200606/silam_glob_v5_6_20200606_PM25_d3.nc
+2020-06-21 10:58:15,184 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200606/silam_glob_v5_6_20200606_PM25_d4.nc
+2020-06-21 10:58:16,929 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200606/silam_glob_v5_6_20200606_PM10_d0.nc
+2020-06-21 10:58:19,118 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200606/silam_glob_v5_6_20200606_PM10_d1.nc
+2020-06-21 10:58:20,966 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200606/silam_glob_v5_6_20200606_PM10_d2.nc
+2020-06-21 10:58:22,889 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200606/silam_glob_v5_6_20200606_PM10_d3.nc
+2020-06-21 10:58:24,681 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200606/silam_glob_v5_6_20200606_PM10_d4.nc
+2020-06-21 10:58:28,511 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200607/silam_glob_v5_6_20200607_PM25_d0.nc
+2020-06-21 10:58:30,249 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200607/silam_glob_v5_6_20200607_PM25_d1.nc
+2020-06-21 10:58:31,952 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200607/silam_glob_v5_6_20200607_PM25_d2.nc
+2020-06-21 10:58:33,676 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200607/silam_glob_v5_6_20200607_PM25_d3.nc
+2020-06-21 10:58:35,348 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200607/silam_glob_v5_6_20200607_PM25_d4.nc
+2020-06-21 10:58:37,111 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200607/silam_glob_v5_6_20200607_PM10_d0.nc
+2020-06-21 10:58:38,964 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200607/silam_glob_v5_6_20200607_PM10_d1.nc
+2020-06-21 10:58:40,871 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200607/silam_glob_v5_6_20200607_PM10_d2.nc
+2020-06-21 10:58:43,016 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200607/silam_glob_v5_6_20200607_PM10_d3.nc
+2020-06-21 10:58:45,828 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200607/silam_glob_v5_6_20200607_PM10_d4.nc
+2020-06-21 10:58:47,875 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200608/silam_glob_v5_6_20200608_PM25_d0.nc
+2020-06-21 10:58:49,648 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200608/silam_glob_v5_6_20200608_PM25_d1.nc
+2020-06-21 10:58:51,423 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200608/silam_glob_v5_6_20200608_PM25_d2.nc
+2020-06-21 10:58:53,191 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200608/silam_glob_v5_6_20200608_PM25_d3.nc
+2020-06-21 10:58:55,013 : INFO : Downloading http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20200608/silam_glob_v5_6_20200608_PM25_d4.nc
