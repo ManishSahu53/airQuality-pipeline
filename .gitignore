@@ -1,6 +1,7 @@
 # Folders
 .vscode/
 data/
+logs/
 
 # Files
 *.pyc

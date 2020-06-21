@@ -1,4 +1,3 @@
-import numpy
 import os
 import datetime
 import wget
@@ -84,8 +83,13 @@ class SilamDataset:
 
                     logging.info('Downloading {}'.format(path_file))
                     if os.path.isfile(_temp_path_output):
-                        logging.warning('File already present. So Skipping!')
-                        
+                        logging.warning('File NC already present. So Skipping!')
+                        continue
+                    
+                    if os.path.isfile(util.get_file_name(_temp_path_output) + '.tif'):
+                        logging.warning('File TIF already present. So Skipping!')
+                        continue
+
                     try:    
                         wget.download(path_file, _temp_path_output)
                     except Exception as e:

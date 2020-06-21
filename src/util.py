@@ -93,3 +93,19 @@ def set_logger(path_log):
         stream_handler = logging.StreamHandler()
         stream_handler.setFormatter(logging.Formatter('%(message)s'))
         logger.addHandler(stream_handler)
+
+
+# Get list of files inside this folder
+def list_list(path, extension):
+    path_data = []
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            if file.endswith(extension):
+                path_data.append(os.path.join(root, file))
+
+    return path_data
+
+
+# get file name
+def get_file_name(path_data):
+    return os.path.splitext(path_data)[0]
