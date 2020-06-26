@@ -3,6 +3,10 @@ import os
 import logging
 import json
 
+import logging
+import boto3
+from botocore.exceptions import ClientError
+
 
 # Loading model
 def load_model(path_model):
@@ -108,4 +112,24 @@ def list_list(path, extension):
 
 # get file name
 def get_file_name(path_data):
-    return os.path.splitext(path_data)[0]
+    return os.path.splitext(os.path.basename(path_data))[0]
+
+
+# Upload file to S3
+def upload_file(file_name, bucket, object_name):
+    """Upload a file to an S3 bucket
+
+    :param file_name: File to upload
+    :param bucket: Bucket to upload to
+    :param object_name: S3 object name. If not specified then file_name is used
+    :return: True if file was uploaded, else False
+    """
+
+    # Upload the file
+    s3_client = boto3.client('s3')
+    try:
+        response = s3_client.upload_file(file_name, bucket, object_name)
+    except ClientError as e:
+        logging.error(e)
+        return False
+    return True

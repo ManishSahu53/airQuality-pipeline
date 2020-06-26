@@ -45,7 +45,7 @@ class SilamDataset:
         s3_path = os.path.join(self.path_base, date, prefix)
         return s3_path
 
-    def download(self, path_output, start_date='2020-05-01', end_date='2020-05-10', parameter_list=['PM25'], forecast_day_list = [0, 1, 2, 3, 4]):
+    def download(self, path_output, path_forecast, start_date='2020-05-01', end_date='2020-05-10', parameter_list=['PM25'], forecast_day_list = [0, 1, 2, 3, 4]):
 
         assert type(parameter_list) == list,  'parameter_list should be of "list" type, given: {}'.format(type(parameter_list))
         assert type(forecast_day_list) == list,  'forecast_day_list should be of "list" type, given: {}'.format(type(forecast_day_list))
@@ -74,12 +74,19 @@ class SilamDataset:
             temp_day = temp_date.day
 
             temp_path_output = os.path.join(path_output, str(temp_year), str(temp_month), str(temp_day))
+            temp_path_forecast = os.path.join(path_forecast, str(temp_year), str(temp_month), str(temp_day))
+
             util.check_dir(temp_path_output)
+            util.check_dir(temp_path_forecast)
 
             for parameter in parameter_list:
                 for forecast_day in forecast_day_list:
                     path_file = self._date_to_silam_path(day_interval, parameter=parameter, forecast_day=forecast_day)
-                    _temp_path_output = os.path.join(temp_path_output, os.path.basename(path_file))
+
+                    if forecast_day == 0:
+                        _temp_path_output = os.path.join(temp_path_output, os.path.basename(path_file))
+                    else:
+                        _temp_path_output = os.path.join(temp_path_forecast, os.path.basename(path_file))
 
                     logging.info('Downloading {}'.format(path_file))
                     if os.path.isfile(_temp_path_output):
