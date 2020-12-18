@@ -16,8 +16,8 @@ provider:
   name: aws
   runtime: python3.6
   stage: dev
-  region: eu-west-1 # AWS landsat8 bucket in us-west-2 (oregeon)
-  timeout: 300 # optional, in seconds, default is 6
+  region: us-west-1 # AWS landsat8 bucket in us-west-2 (oregeon)
+  timeout: 30 # optional, in seconds, default is 6
   memorySize: 1024 # optional, in MB, default is 1024
 
 iamRoleStatements:
@@ -29,6 +29,7 @@ iamRoleStatements:
        - "arn:aws:s3:::sentinel-cogs/*"
        - "arn:aws:s3:::fmi-opendata-silam-surface-netcdf/*"
 
+  -  Effect: "Allow"
      Action:
        - "s3:PutObject"
      Resource:

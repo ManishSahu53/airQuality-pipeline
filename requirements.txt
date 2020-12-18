@@ -1,5 +1,4 @@
-cogconverter
 boto3
-wget
+cogconverter
 joblib
-# gdal
+wget

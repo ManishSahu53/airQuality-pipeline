@@ -5,10 +5,12 @@ forecast/
 logs/
 tmp/
 notebook/
+node_modules/
 
 # Files
 *.pyc
 *.log
+package-lock.json
 
 # Distribution / packaging
 .Python
