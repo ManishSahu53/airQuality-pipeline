@@ -2,6 +2,8 @@ import joblib
 import os
 import logging
 import json
+import gdal
+import numpy as np
 
 import logging
 import boto3
@@ -133,3 +135,59 @@ def upload_file(file_name, bucket, object_name):
         logging.error(e)
         return False
     return True
+
+
+
+
+# Reading raster dataset
+def read_tif(path_tif:str):
+    """
+    Input: TIF image path
+    Output: geoTransform, geoProjection, size, arr
+    """
+    #    array = cv2.imread(tif_file)
+    #    driver = gdal.GetDriverByName("GTiff")
+    ds = gdal.Open(path_tif)
+    num_band = ds.RasterCount
+    col = ds.RasterXSize
+    row = ds.RasterYSize
+    array = np.zeros([row, col, num_band])
+    for i in range(num_band):
+        band = ds.GetRasterBand(i+1)
+        arr = band.ReadAsArray()
+        no_data = band.GetNoDataValue()
+        arr[arr==no_data] = 0
+        array[:, :, i] = arr
+    
+    size = arr.shape
+    geotransform = ds.GetGeoTransform()
+    geoprojection = ds.GetProjection()
+    return geotransform, geoprojection, (size[1], size[0]), array
+
+
+# Writing raster dataset
+def write_tif(path_tif, array, geotransform, geoprojection, size):
+    dim_array = array.shape
+    if len(dim_array) > 2:
+        depth = dim_array[2]
+    else:
+        depth = 1
+
+    driver = gdal.GetDriverByName("GTiff")
+    outdata = driver.Create(
+        path_tif, size[0], size[1], depth, gdal.GDT_Float32)
+
+    # sets same geotransform as input
+    outdata.SetGeoTransform(geotransform)
+    outdata.SetProjection(geoprojection)  # sets same projection as input
+    for i in range(depth):
+        try:
+            arr = array[:, :, i]
+        except Exception as e:
+            arr = array[:, :]
+        arr = cv2.resize(arr, size)
+        outdata.GetRasterBand(i+1).WriteArray(arr)
+    # outdata.GetRasterBand(1).SetNoDataValue(-9999)##if you want ... \
+    # ...\ these values transparent
+    outdata.FlushCache()  # saves to disk!!
+

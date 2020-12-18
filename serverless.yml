@@ -1,5 +1,5 @@
 # serverless.yml
-service: silar-air-quality
+service: silam-air-quality-sns-processing
 plugins:
   - serverless-python-requirements
   - serverless-wsgi
@@ -20,6 +20,19 @@ provider:
   timeout: 300 # optional, in seconds, default is 6
   memorySize: 1024 # optional, in MB, default is 1024
 
+iamRoleStatements:
+  -  Effect: "Allow"
+     Action:
+       - "s3:GetObject"
+     Resource:
+       - "arn:aws:s3:::landsat-pds/*"
+       - "arn:aws:s3:::sentinel-cogs/*"
+       - "arn:aws:s3:::fmi-opendata-silam-surface-netcdf/*"
+
+     Action:
+       - "s3:PutObject"
+     Resource:
+       - "arn:aws:s3:::silam-air-quality/*"
 
 apiGateway:
   binaryMediaTypes:

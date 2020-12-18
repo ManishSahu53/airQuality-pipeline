@@ -11,9 +11,11 @@ from src import util
 class SilamDataset:
     """
     This class is used to download dataset
+    https://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20201117/silam_glob_v5_7_1_20201117_CO_d0.nc
+    https://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global/20201217/silam_glob_v5_6_20201217_CO_d0.nc
     """
     def __init__(self):
-        self.path_base = 'http://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global'
+        self.path_base = 'https://s3-eu-west-1.amazonaws.com/fmi-opendata-silam-surface-netcdf/global'
         self.base_date = datetime.datetime.strptime('2000-01-01', '%Y-%m-%d')
         self.paramter =  ['CO', 'NO2', 'NO', 'O3', 'PM10', 'PM25', 'SO2', 'airdens']
         self.forecast_day = [0, 1, 2, 3, 4]
@@ -40,7 +42,7 @@ class SilamDataset:
         date = '{}{}{}'.format(year, month, day)
 
         suffix = 'd{}'.format(forecast_day)
-        prefix = 'silam_glob_v5_6_{}_{}_{}.nc'.format(date, parameter, suffix)
+        prefix = 'silam_glob_v5_7_1_{}_{}_{}.nc'.format(date, parameter, suffix)
         
         s3_path = os.path.join(self.path_base, date, prefix)
         return s3_path

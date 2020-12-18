@@ -13,14 +13,14 @@ logging.info('################## Starting Data ####################')
 path_output = 'data'
 path_forecast = 'forecast'
 
-bucket = 'air-quality-silam'
+bucket = 'silam-air-quality'
 
 # Download data
 data = download.SilamDataset()
 data.download(path_output=path_output,
               path_forecast=path_forecast,
-              start_date='2020-05-22', 
-              end_date='2020-05-25', 
+              start_date='2020-12-17', 
+              end_date='2020-12-17', 
               parameter_list=['CO', 'NO2', 'NO', 'O3', 'PM10', 'PM25', 'SO2'], 
               forecast_day_list = [0, 1, 2, 3, 4]
               )

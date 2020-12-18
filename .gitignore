@@ -3,9 +3,12 @@
 data/
 forecast/
 logs/
+tmp/
+notebook/
 
 # Files
 *.pyc
+*.log
 
 # Distribution / packaging
 .Python
