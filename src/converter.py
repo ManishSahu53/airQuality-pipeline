@@ -2,8 +2,8 @@ import os
 import datetime
 import wget
 import logging
-import gdal
-import osr
+from osgeo import gdal
+from osgeo import osr
 import config
 import numpy as np
 
