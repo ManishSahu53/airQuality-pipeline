@@ -28,6 +28,7 @@ COPY . ${PACKAGE_PREFIX}/
 
 RUN pip install -r requirements.txt
 
+
 RUN ["python3", "package.py" ]
 
 # Move some files around
