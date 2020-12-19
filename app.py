@@ -10,16 +10,16 @@ import config
 
 
 s3 = boto3.client('s3')
-path_temp = 'tmp'
+path_temp = '.tmp'
 
 bucket_output = 'silam-air-quality'
 path_output_s3 = 'geotif'
 
-def silam_air_quality_process(event, context):
+def silam_air_quality_process(event, context={}):
     print('Triggered Lambda function')
 
     msg = event['Records'][0]['Sns']['Message']
-    # msg = json.loads(msg)
+    msg = json.loads(msg)
 
     to_s3 = msg['Records'][0]['s3']
     bucket_input = to_s3['bucket']['name']
@@ -84,6 +84,6 @@ def silam_air_quality_process(event, context):
 temp_date = str(datetime.datetime.strptime(date_str, '%Y-%m-%dT%H:%M:%S.%fZ').date())
 """
 
-path_json = 'notebook/silam.json'
-event = util.load_json(path_json)
-silam_air_quality_process(event, '')
+# path_json = 'notebook/silam.json'
+# event = util.load_json(path_json)
+# silam_air_quality_process(event, '')

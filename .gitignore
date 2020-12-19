@@ -6,8 +6,10 @@ logs/
 tmp/
 notebook/
 node_modules/
+test/
 
 # Files
+*.zip
 *.pyc
 *.log
 package-lock.json
