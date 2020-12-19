@@ -1,5 +1,4 @@
 boto3
 cogconverter
-joblib
 wget
-gdal
+GDAL==3.0.1

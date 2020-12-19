@@ -1,7 +1,7 @@
-FROM lambgeo/lambda-gdal:3.2-al2 as gdal
+FROM lambgeo/lambda-gdal:3.2-python3.7 as gdal
 
 # We use lambci docker image for the runtime
-FROM lambci/lambda:build-python3.8
+FROM lambci/lambda:build-python3.7
 
 # Bring C libs from lambgeo/lambda-gdal image
 COPY --from=gdal /opt/lib/ /opt/lib/
@@ -28,12 +28,11 @@ COPY . ${PACKAGE_PREFIX}/
 
 RUN pip install -r requirements.txt
 
-
-RUN ["python3", "package.py" ]
+# RUN ["python3", "package.py" ]
 
 # Move some files around
-RUN cp -r /var/lang/lib/python3.8/site-packages/* ${PACKAGE_PREFIX}/
-RUN rm -rf /var/lang/lib/
+RUN cp -r /var/lang/lib/python3.7/site-packages/* ${PACKAGE_PREFIX}/
+# RUN rm -rf /var/lang/lib/
 
 # Create package.zip
 RUN cd $PACKAGE_PREFIX && zip -r9q /tmp/package.zip *

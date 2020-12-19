@@ -10,7 +10,7 @@ import config
 
 
 s3 = boto3.client('s3')
-path_temp = '.tmp'
+path_temp = '/tmp'
 
 bucket_output = 'silam-air-quality'
 path_output_s3 = 'geotif'
