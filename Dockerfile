@@ -1,55 +1,38 @@
-FROM ubuntu:bionic
+FROM lambgeo/lambda-gdal:3.2-al2 as gdal
 
-# Update base container install
-RUN apt-get update
-RUN apt-get upgrade -y
+# We use lambci docker image for the runtime
+FROM lambci/lambda:build-python3.8
 
-# Install GDAL dependencies
-RUN apt-get install -y python3-pip libgdal-dev locales
+# Bring C libs from lambgeo/lambda-gdal image
+COPY --from=gdal /opt/lib/ /opt/lib/
+COPY --from=gdal /opt/include/ /opt/include/
+COPY --from=gdal /opt/share/ /opt/share/
+COPY --from=gdal /opt/bin/ /opt/bin/
+ENV \
+  GDAL_DATA=/opt/share/gdal \
+  PROJ_LIB=/opt/share/proj \
+  GDAL_CONFIG=/opt/bin/gdal-config \
+  GEOS_CONFIG=/opt/bin/geos-config \
+  PATH=/opt/bin:$PATH
 
-# Install dependencies for other packages
-RUN apt-get install gcc g++
-#RUN apt-get install jpeg-dev zlib-dev
+# Set some useful env
+ENV \
+  LANG=en_US.UTF-8 \
+  LC_ALL=en_US.UTF-8 \
+  CFLAGS="--std=c99"
 
-# Ensure locales configured correctly
-RUN locale-gen en_US.UTF-8
-ENV LC_ALL='en_US.utf8'
+ENV PACKAGE_PREFIX=/var/task
 
-# Set python aliases for python3
-RUN echo 'alias python=python3' >> ~/.bashrc
-RUN echo 'alias pip=pip3' >> ~/.bashrc
+# Copy any local files to the package
+COPY . ${PACKAGE_PREFIX}/
 
-# Update C env vars so compiler can find gdal
-ENV CPLUS_INCLUDE_PATH=/usr/include/gdal
-ENV C_INCLUDE_PATH=/usr/include/gdal
-
-# This will install latest version of GDAL
-RUN apt-get -y install python3-gdal
-RUN apt-get -y install zip
-RUN apt-get install ca-certificates 
-ENV CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
-
-# Copy function to a path
-RUN mkdir -p /var/cog_api
-COPY . /var/cog_api/
-
-# Work Directory
-WORKDIR /var/cog_api/
-
-# Build context
-ADD app.py src /
-
-ENV PYTHONUNBUFFERED = '1'
-
-# Upgrading pip
-RUN python3 -m pip install pip --upgrade
-RUN python3 -m pip install wheel
-
-# Install dependencies for tiling
 RUN pip install -r requirements.txt
 
-EXPOSE 4000
+RUN ["python3", "package.py" ]
 
-# CMD ["python3", "app.py" ]    
-CMD ["gunicorn", "-k", "gevent", "-w", "8", "-b", "0.0.0.0:4000", "wsgi:app"]
-# CMD ["gunicorn", "-c", "gconfig.py", "wsgi:app"]
+# Move some files around
+RUN cp -r /var/lang/lib/python3.8/site-packages/* ${PACKAGE_PREFIX}/
+RUN rm -rf /var/lang/lib/
+
+# Create package.zip
+RUN cd $PACKAGE_PREFIX && zip -r9q /tmp/package.zip *

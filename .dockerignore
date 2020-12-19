@@ -1,0 +1,8 @@
+# Folder
+node_modules/
+.vscode/
+.serverless/
+notebook/
+tmp/
+
+# Files

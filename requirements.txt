@@ -2,3 +2,4 @@ boto3
 cogconverter
 joblib
 wget
+gdal
