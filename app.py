@@ -8,8 +8,10 @@ from src import converter
 
 import config
 
+AWS_ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY_ID']
+AWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']
 
-s3 = boto3.client('s3')
+s3 = boto3.client('s3', aws_access_key_id=AWS_ACCESS_KEY_ID , aws_secret_access_key=AWS_SECRET_ACCESS_KEY)
 path_temp = '/tmp'
 
 bucket_output = 'silam-air-quality'
@@ -19,7 +21,7 @@ def silam_air_quality_process(event, context={}):
     print('Triggered Lambda function')
 
     msg = event['Records'][0]['Sns']['Message']
-    msg = json.loads(msg)
+    # msg = json.loads(msg)
 
     to_s3 = msg['Records'][0]['s3']
     bucket_input = to_s3['bucket']['name']
@@ -67,7 +69,7 @@ def silam_air_quality_process(event, context={}):
         # Upload file to S3
         temp_key_output = os.path.join(path_output_s3, path_output_key)
         print('Uploading COG to s3 bucket: {}, key: {}'.format(bucket_output, temp_key_output))
-        util.upload_file(temp_path_tif, bucket=bucket_output, object_name=temp_key_output)
+        util.uploadfile2s3(s3_client=s3, path_file=temp_path_tif, bucket=bucket_output, key=temp_key_output)
 
         response = {
             "statusCode": 200,

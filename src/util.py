@@ -129,12 +129,20 @@ def upload_file(file_name, bucket, object_name):
     # Upload the file
     s3_client = boto3.client('s3')
     try:
-        response = s3_client.upload_file(file_name, bucket, object_name)
+        response = s3_client.generate_presigned_url(file_name, bucket, object_name)
     except ClientError as e:
         logging.error(e)
         return False
     return True
 
+
+def upload2S3(s3_client, img_obj, key, bucket, content_type='image/jpeg'):
+    s3_client.put_object(Body=img_obj, Bucket=bucket,
+                         Key=key, ContentType=content_type)
+
+
+def uploadfile2s3(s3_client, path_file, key, bucket):
+    s3_client.upload_file(path_file, bucket, key)
 
 
 
