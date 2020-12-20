@@ -1,5 +1,5 @@
 import site
-from osgeo import gdal
+import gdal
 import os
 
 path = os.path.abspath(gdal.__file__)

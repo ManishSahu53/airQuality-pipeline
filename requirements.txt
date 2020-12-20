@@ -1,4 +1,2 @@
-boto3
-cogconverter
 wget
-GDAL==3.0.1
+cogconverter

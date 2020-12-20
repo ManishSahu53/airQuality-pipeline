@@ -1,7 +1,7 @@
 # import joblib
 import os
 import json
-from osgeo import gdal
+import gdal
 import numpy as np
 
 import logging

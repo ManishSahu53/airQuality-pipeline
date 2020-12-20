@@ -7,16 +7,16 @@ plugins:
 
 custom:
   wsgi:
-    app: app.app
+    app: app.silam_air_quality_process
     packRequirements: false
   pythonRequirements:
     dockerizePip: true
 
 provider:
   name: aws
-  runtime: python3.6
+  runtime: python3.7
   stage: dev
-  region: us-west-1 # AWS landsat8 bucket in us-west-2 (oregeon)
+  region: us-east-1 # AWS landsat8 bucket in us-west-2 (oregeon)
   timeout: 30 # optional, in seconds, default is 6
   memorySize: 1024 # optional, in MB, default is 1024
 
@@ -39,10 +39,11 @@ apiGateway:
   binaryMediaTypes:
     - '*/*'
 
+layers: # An optional list Lambda Layers to use
+  - arn:aws:lambda:us-east-1:552188055668:layer:geolambda:4
+
 functions:
   dispatcher:
     handler: wsgi_handler.handler
     events:
       - sns:  arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-silam-surface-netcdf
-      - http: ANY /
-      - http: 'ANY {proxy+}'

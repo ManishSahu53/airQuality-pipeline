@@ -2,6 +2,7 @@ import json
 import os
 import boto3
 import datetime
+import wget
 
 from src import util
 from src import converter
@@ -44,6 +45,8 @@ def silam_air_quality_process(event, context={}):
         temp_path_tif = path_data + '.tif'
 
         print('Dowloading data from s3 bucket: {}, key: {} to local :{}'.format(bucket_input, key_input, path_data))
+        temp_path_input = os.path.join(config.silam_base_url, key_input)
+        # wget.download(temp_path_input, path_data)
         s3.download_file(bucket_input, key_input, path_data)
 
         # Parsing timestamp and dates
