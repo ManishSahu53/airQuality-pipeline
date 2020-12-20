@@ -16,4 +16,4 @@ There are 2 layers whic are to be added
     * Finally upload zip to S3
     * `aws s3 cp notebook/silam-package.zip s3://temp-test-gdal-bucket`
 
-2. 
+2. Manually add cogconverter, wget library to the package
